@@ -30,6 +30,11 @@ fun HomeScreen(homeViewModel: HomeViewModel = viewModel()) {
             fontSize = 24.sp,
             color = Color.White
         )
+        Text(
+            text = state.definition.toString(),
+            fontSize = 16.sp,
+            color = Color.White
+        )
     }
 }
 
